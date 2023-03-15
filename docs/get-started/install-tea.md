@@ -41,7 +41,7 @@ for your projects. They can use the power of tea to try out your project
 without installing tea or your project.
 
 {% hint style="success" %}
-See [The `tea` One-Liner](/using-tea/the-tea-one-liner.md) for more details
+See [The `tea` One-Liner](/docs/using-tea/the-tea-one-liner.md) for more details
 {% endhint %}
 
 
