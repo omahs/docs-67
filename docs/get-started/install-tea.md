@@ -6,6 +6,8 @@ The easiest way to install tea is with our installer:
 sh <(curl https://tea.xyz)
 ```
 
+> Using `fish`? Then: `sh <(curl https://tea.xyz | psub)`
+
 The script installs to `~/.tea` and sets up magic (we ask politely first).
 
 {% hint style="info" %}
