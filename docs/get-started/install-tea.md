@@ -15,6 +15,8 @@ The script installs to `~/.tea` and sets up magic (we ask politely first).
 [https://github.com/teaxyz/setup/blob/main/install.sh]
 {% endhint %}
 
+> Linux users may need to install some pre-requisites.
+> See [Linux Caveats](#linux-caveats) below.
 
 ## What Happens
 
