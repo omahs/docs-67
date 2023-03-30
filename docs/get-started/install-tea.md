@@ -49,7 +49,19 @@ See [The `tea` One-Liner](/docs/using-tea/the-tea-one-liner.md) for more details
 {% endhint %}
 
 
-## Linux Caveats
+## Requirements
+
+Both aarch64 (arm64) and x86-64 for these platforms:
+
+* macOS >= 11
+* Linux glibc >=23
+* WSL >=2
+
+We want to support Windows native and after that every platform; yes even
+your NAS and IoT devices. We’re going to get the above sorted first though.
+
+
+### Linux Caveats
 
 On Linux you may need some pre-requisite packages from your system packager.
 This is a temporary situation that we are fixing.
