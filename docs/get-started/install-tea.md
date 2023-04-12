@@ -54,8 +54,14 @@ See [The `tea` One-Liner](/docs/using-tea/the-tea-one-liner.md) for more details
 Both aarch64 (arm64) and x86-64 for these platforms:
 
 * macOS >= 11
-* Linux glibc >=23
+* Linux glibc >=2.28 (consult [repology](https://repology.org/project/glibc/versions))
 * WSL >=2
+
+`linux-aarch64` builds are done using a dockerized Debian image on Apple arm64
+processors. We have tested and confirmed functionality on Raspberry Pi4 running
+Ubuntu 22.04.2 LTS, and it should work on similar 64-bit Pi Foundation hardware
+with a sufficient glibc, which should include the last several releases of
+Raspbian Linux. 32-bit CPU builds are not being done at this time.
 
 We want to support Windows native and after that every platform; yes even
 your NAS and IoT devices. We’re going to get the above sorted first though.
