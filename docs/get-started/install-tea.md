@@ -6,7 +6,9 @@ The easiest way to install tea is with our installer:
 sh <(curl https://tea.xyz)
 ```
 
-> Using `fish`? Then: `sh <(curl https://tea.xyz | psub)`
+{% hint style="question" %}
+`fish` user? Then you need `sh <(curl https://tea.xyz | psub)` instead.
+{% endhint %}
 
 The script installs to `~/.tea` and sets up magic (we ask politely first).
 
@@ -57,11 +59,13 @@ Both aarch64 (arm64) and x86-64 for these platforms:
 * Linux glibc >=2.28 (consult [repology](https://repology.org/project/glibc/versions))
 * WSL >=2
 
+{% hint style="info" %}
 `linux-aarch64` builds are done using a dockerized Debian image on Apple arm64
 processors. We have tested and confirmed functionality on Raspberry Pi4 running
 Ubuntu 22.04.2 LTS, and it should work on similar 64-bit Pi Foundation hardware
 with a sufficient glibc, which should include the last several releases of
 Raspbian Linux. 32-bit CPU builds are not being done at this time.
+{% endhint %}
 
 We want to support Windows native and after that every platform; yes even
 your NAS and IoT devices. We’re going to get the above sorted first though.

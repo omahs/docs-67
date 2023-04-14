@@ -14,9 +14,13 @@ Magic is entirely optional, tea is still entirely usable without it.
 
 {% hint style="warning" %}
 Our “command not found” magic only works at a terminal prompt. Thus eg.
-VSCode won’t magically find `deno`. Shell scripts won’t automatically
+your editor won’t automagically install `deno`. Shell scripts won’t automatically
 install tools they try to run. This is intentional. *Magic should not lead
 to anarchy*.
+
+We try where possible to have tools magically *find* packages if they are
+already installed. Thus eg. VSCode will find your packages in your [developer
+environment]
 {% endhint %}
 
 Our magic means that tea packages are not generally accessible from the rest
@@ -95,3 +99,6 @@ Thus you can make a script that can effortlessly use any tool from the open
 source ecosystem. If they have tea installed it uses their installation, if
 not it installs everything (including tea itself) to a temporary sandbox
 that’s gone when the script completes.
+
+
+[developer environment]: /using-tea/developer-environments.md
