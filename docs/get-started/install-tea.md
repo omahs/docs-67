@@ -25,7 +25,7 @@ The script installs to `~/.tea` and sets up magic (we ask politely first).
 * Firstly we confirm you’re cool before we do *anything*
     * If so we install tea to `~/.tea`
     * If not we exit with failure
-* We then ask if you want [magic](../using-tea/with-magic.md)
+* We then ask if you want [magic](../magic.md)
     * If so we add one line to your `~/.shellrc`
     * If not we exit successfully
 
