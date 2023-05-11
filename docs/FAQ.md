@@ -55,7 +55,7 @@ as described in the above FAQ.
 ## What are these `^`, `~`, etc. symbols?
 
 tea adheres to [semantic versioning](https://semver.org), and uses
-[`semver`](https://github.com/npm/node-semver#versions) for parsing versions.
+[`semver`](https://devhints.io/semver) for parsing versions.
 
 ## How do I find available packages?
 

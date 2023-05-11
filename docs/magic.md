@@ -65,7 +65,7 @@ Welcome to Node 16.7.0
 >
 ```
 
-We support appending [semver](semver.org) ranges:
+We support appending [semver](https://devhints.io/semver) ranges:
 
 ```sh
 $ ln -s tea node^14

@@ -72,6 +72,63 @@ deployments actually remain *more* stable.
 </details>
 
 
+## YAML Format
+
+Either via YAML front matter, or more explicitly with `tea.yaml` we support
+the following:
+
+```yaml
+dependencies:
+  npmjs.com: ^9
+  gnu.org/wget: ^1.2
+env:
+  NODE_ENV: dev
+```
+
+Dependencies use a fully-qualified (FQ) url format. This may seem unusual but there
+are millions of open source projects and any other naming scheme leads to
+Debian. We don’t want to be Debian.
+
+To discover FQ names you have a few options:
+
+1. `tea -n npm` will “dry-run” running `npm`, showing you its path. It’s path contains the FQ name.
+2. `tea pkg search foo` will search the pantry for fuzzy matches on `foo`
+3. https://tea.xyz/+/ has a search interface
+4. [tea/gui](https://tea.xyz/gui/) has a search interface
+
+{% hint style="info" %}
+The `^`, `~` symbols are [semantic-version constraints](https://devhints.io/semver).
+{% endhint %}
+
+### Additions for YAML Front Matter
+
+YAML Front Matter in scripts also supports specifying `args` as a string or
+array or literals. This can be useful for specifying more arguments to the
+interpreter, eg.
+
+```js
+#!/usr/bin/env tea
+/*---
+args:
+  deno --allow-env run
+---*/
+```
+
+The script name is inserted as the last argument.
+
+We also expand some moustaches such as `{{srcroot}}` and `{{home}}`.
+
+{% hint style="info" %}
+Notably you could also insert these arguments on the shebang:
+
+```sh
+#!/usr/bin/env -S tea deno --allow-env run
+```
+
+Though you need to call `env` with `-S` as its first argument.
+{% endhint %}
+
+
 ## Caveats
 
 We still need to do a bit of work here. We don’t install any packages when
