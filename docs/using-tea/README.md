@@ -93,7 +93,7 @@ $ cat .node-version
 ```
 
 For more details see the
-[Developer Environments](/features/developer-environments)
+[Developer Environments](/using-tea/developer-environments)
 documentation.
 
 
