@@ -17,7 +17,7 @@ The script installs to `~/.tea` and sets up magic (we ask politely first).
 [https://github.com/teaxyz/setup/blob/main/install.sh]
 {% endhint %}
 
-> Linux users may need to install some pre-requisites.
+> Linux and WSL2 users may need to install some pre-requisites.
 > See [Linux Caveats](#linux-caveats) below.
 
 ## What Happens
@@ -71,7 +71,7 @@ We want to support Windows native and after that every platform; yes even
 your NAS and IoT devices. We’re going to get the above sorted first though.
 
 
-### Linux Caveats
+### Linux / WSL Caveats
 
 On Linux you may need some pre-requisite packages from your system packager.
 This is a temporary situation that we are fixing.
