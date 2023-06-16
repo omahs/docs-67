@@ -114,6 +114,21 @@ component will be an implementation detail that you won’t need to think about
 
 Check out our [white paper] for more information.
 
+## Uninstalling Packages
+
+Step into `~/.tea` and delete the packages you no longer want. It’s that
+simple.
+
+We use fully qualified domain names for package namespacing, so it may tricky
+to find what you need to delete. You can dryrun tea to fine the path:
+
+```sh
+$ tea -n exa
+~/.tea/crates.io/exa/v0.10.1/bin/exa
+
+$ rm -rf ~/.tea/crates.io/exa
+```
+
 # I have another question
 
 Start a [discussion] and we’ll get back to you.
