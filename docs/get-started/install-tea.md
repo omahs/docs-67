@@ -18,7 +18,7 @@ The script installs to `~/.tea` and sets up magic (we ask politely first).
 {% endhint %}
 
 > Linux and WSL2 users may need to install some pre-requisites.
-> See [Linux Caveats](#linux-caveats) below.
+> See [Linux / WSL Caveats](#linux-wsl-caveats) below.
 
 ## What Happens
 
