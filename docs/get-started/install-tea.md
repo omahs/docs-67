@@ -17,7 +17,7 @@ The script installs to `~/.tea` and sets up magic (we ask politely first).
 [https://github.com/teaxyz/setup/blob/main/install.sh]
 {% endhint %}
 
-> Linux and WSL2 users may need to install some pre-requisites.
+> Linux and WSL2 users may need to install some prerequisites.
 > See [Linux / WSL Caveats](#linux-wsl-caveats) below.
 
 ## What Happens
