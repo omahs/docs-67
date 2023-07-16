@@ -91,7 +91,7 @@ Debian. We don’t want to be Debian.
 
 To discover FQ names you have a few options:
 
-1. `tea -n npm` will “dry-run” running `npm`, showing you its path. It’s path contains the FQ name.
+1. `tea -n npm` will “dry-run” running `npm`, showing you its path. Its path contains the FQ name.
 2. `tea pkg search foo` will search the pantry for fuzzy matches on `foo`
 3. https://tea.xyz/+/ has a search interface
 4. [tea/gui](https://tea.xyz/gui/) has a search interface
