@@ -1,6 +1,6 @@
 # `tea/gui`
 
-Introduing the `tea/gui` — a visual package manager that lets you browse, install, and update open-source software in a snap. Say goodbye to manual updates and hello to streamlined development.
+Introducing the `tea/gui` — a visual package manager that lets you browse, install, and update open-source software in a snap. Say goodbye to manual updates and hello to streamlined development.
 
 ![tea/gui](../../assets/gui-image.png)
 
